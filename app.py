@@ -9,8 +9,8 @@ import dash_html_components as html
 import plotly.graph_objs as go
 import pandas as pd
 
-# df = pd.read_csv('http://ndownloader.figsh.com/files/8261349')
-df = pd.read_csv('assets/gdplifeexp2007.csv')
+df = pd.read_csv('http://ndownloader.figsh.com/files/8261349')
+# df = pd.read_csv('assets/gdplifeexp2007.csv')
 countries = df['country'].unique()
 
 app = dash.Dash(assets_external_path='https://codepen.io/chriddyp/pen/bWLwgP.css')
